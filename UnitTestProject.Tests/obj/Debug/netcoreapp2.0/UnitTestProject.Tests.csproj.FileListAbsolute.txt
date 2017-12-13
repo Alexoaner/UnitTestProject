@@ -1,0 +1,15 @@
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\UnitTestProject.Tests.deps.json
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\UnitTestProject.Tests.runtimeconfig.json
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\UnitTestProject.Tests.runtimeconfig.dev.json
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\UnitTestProject.Tests.dll
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\UnitTestProject.Tests.pdb
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\UnitTestProject.Web.dll
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\bin\Debug\netcoreapp2.0\UnitTestProject.Web.pdb
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\obj\Debug\netcoreapp2.0\UnitTestProject.Tests.csproj.CoreCompileInputs.cache
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\obj\Debug\netcoreapp2.0\UnitTestProject.Tests.AssemblyInfoInputs.cache
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\obj\Debug\netcoreapp2.0\UnitTestProject.Tests.AssemblyInfo.cs
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\obj\Debug\netcoreapp2.0\UnitTestProject.Tests.dll
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Tests\obj\Debug\netcoreapp2.0\UnitTestProject.Tests.pdb
