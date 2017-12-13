@@ -1,0 +1,10 @@
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\bin\Debug\netcoreapp2.0\UnitTestProject.Web.deps.json
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\bin\Debug\netcoreapp2.0\UnitTestProject.Web.runtimeconfig.json
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\bin\Debug\netcoreapp2.0\UnitTestProject.Web.runtimeconfig.dev.json
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\bin\Debug\netcoreapp2.0\UnitTestProject.Web.dll
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\bin\Debug\netcoreapp2.0\UnitTestProject.Web.pdb
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\obj\Debug\netcoreapp2.0\UnitTestProject.Web.csproj.CoreCompileInputs.cache
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\obj\Debug\netcoreapp2.0\UnitTestProject.Web.AssemblyInfoInputs.cache
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\obj\Debug\netcoreapp2.0\UnitTestProject.Web.AssemblyInfo.cs
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\obj\Debug\netcoreapp2.0\UnitTestProject.Web.dll
+e:\Development\eBooks\ProjectsForBook\UnitTestProject\UnitTestProject.Web\obj\Debug\netcoreapp2.0\UnitTestProject.Web.pdb
