@@ -1,0 +1,11 @@
+@model IEnumerable<UnitTestProject.Web.Models.Product>
+
+<h1>List Method</h1>
+
+<ul>
+    @foreach(var product in @Model)
+    {
+        <li>@product.Name</li>
+    } 
+</ul>
+
