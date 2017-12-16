@@ -266,7 +266,7 @@
           "lib/netcoreapp2.0/_._": {}
         },
         "build": {
-          "build/netcoreapp2.0/_._": {}
+          "build/netcoreapp2.0/Microsoft.AspNetCore.All.targets": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/2.0.1": {
@@ -1040,7 +1040,7 @@
           "Microsoft.AspNetCore.Mvc.RazorPages": "2.0.1"
         },
         "build": {
-          "build/netstandard2.0/_._": {}
+          "build/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.targets": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.RazorPages/2.0.1": {
@@ -1951,7 +1951,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {}
         },
         "build": {
-          "build/netstandard2.0/_._": {}
+          "build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration.Xml/2.0.0": {
@@ -13651,6 +13651,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.NET.Test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "UnitTestProject.Web >= 1.0.0",
@@ -13666,11 +13667,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Tests\\UnitTestProject.Tests.csproj",
+      "projectUniqueName": "E:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Tests\\UnitTestProject.Tests.csproj",
       "projectName": "UnitTestProject.Tests",
-      "projectPath": "e:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Tests\\UnitTestProject.Tests.csproj",
+      "projectPath": "E:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Tests\\UnitTestProject.Tests.csproj",
       "packagesPath": "C:\\Users\\Sofia\\.nuget\\packages\\",
-      "outputPath": "e:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Tests\\obj\\",
+      "outputPath": "E:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -13691,8 +13692,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "e:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Web\\UnitTestProject.Web.csproj": {
-              "projectPath": "e:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Web\\UnitTestProject.Web.csproj"
+            "E:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Web\\UnitTestProject.Web.csproj": {
+              "projectPath": "E:\\Development\\eBooks\\ProjectsForBook\\UnitTestProject\\UnitTestProject.Web\\UnitTestProject.Web.csproj"
             }
           }
         }
@@ -13706,6 +13707,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "[2.0.3, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[15.5.0, )"

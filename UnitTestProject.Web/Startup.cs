@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using UnitTestProject.Web.Infrastructure;
+using UnitTestProject.Web.Repositorys;
 
 namespace UnitTestProject.Web
 {
@@ -16,6 +18,7 @@ namespace UnitTestProject.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddScoped<IProductRepository, InMemoryProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

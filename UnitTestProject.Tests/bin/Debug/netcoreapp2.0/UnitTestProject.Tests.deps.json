@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.0": {
       "UnitTestProject.Tests/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.All": "2.0.3",
           "Microsoft.NET.Test.Sdk": "15.5.0",
           "UnitTestProject.Web": "1.0.0",
           "xunit": "2.3.1",

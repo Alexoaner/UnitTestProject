@@ -5,6 +5,7 @@ using UnitTestProject.Web.Controllers;
 using UnitTestProject.Web.Models;
 using Xunit;
 using System.Linq;
+using UnitTestProject.Web.Infrastructure;
 
 namespace UnitTestProject.Tests
 {
@@ -14,7 +15,8 @@ namespace UnitTestProject.Tests
         public void VerifyIndexViewType()
         {
             // Arrange
-            var controller = new HomeController();
+            var repository = new InMemoryProductRepository();
+            var controller = new HomeController(repository);
 
             // Act
             var result = controller.Index();
@@ -26,7 +28,8 @@ namespace UnitTestProject.Tests
         [Fact]
         public void VerifyListProductCount()
         {
-            var controller = new HomeController();
+            var repository = new InMemoryProductRepository();
+            var controller = new HomeController(repository);
             var result = Assert.IsType<ViewResult>(controller.List());
             var model = Assert.IsType<List<Product>>(result.Model);
             Assert.Equal(2,model.Count());
