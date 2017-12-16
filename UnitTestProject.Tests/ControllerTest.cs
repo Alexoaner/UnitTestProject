@@ -39,5 +39,28 @@ namespace UnitTestProject.Tests
             var model = Assert.IsType<List<Product>>(result.Model);
             Assert.Equal(2,model.Count());
         }
+
+        [Fact]
+        public void VerifyValidIdReturnsProduct()
+        {
+            var repository = new Mock<IProductRepository>();
+            repository.Setup(x => x.GetProductById(It.IsInRange<int>(1,3,Range.Inclusive))).Returns(
+                new Product { ID = 1, Name = "Apples", Price = 1.50m                
+            });
+            var controller = new HomeController(repository.Object);
+            var result = Assert.IsType<ViewResult>(controller.Details(1));
+            var model = Assert.IsType<Product>(result.Model);
+            Assert.Equal("Apples", model.Name);
+        }
+
+        [Fact]
+        public void VerifyInvalidIdReturnsNotFound()
+        {
+            var repository = new Mock<IProductRepository>();
+            repository.Setup(x => x.GetProductById(It.Is<int>(id => id > 3))).Returns((Product)null);
+            var controller = new HomeController(repository.Object);
+            var result = Assert.IsType<ViewResult>(controller.Details(4));
+            Assert.Null(result.Model);
+        }
     }
 }
