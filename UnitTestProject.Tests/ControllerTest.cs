@@ -6,6 +6,8 @@ using UnitTestProject.Web.Models;
 using Xunit;
 using System.Linq;
 using UnitTestProject.Web.Infrastructure;
+using UnitTestProject.Web.Repositorys;
+using Moq;
 
 namespace UnitTestProject.Tests
 {
@@ -15,8 +17,8 @@ namespace UnitTestProject.Tests
         public void VerifyIndexViewType()
         {
             // Arrange
-            var repository = new InMemoryProductRepository();
-            var controller = new HomeController(repository);
+            var repository = new Mock<IProductRepository>();
+            var controller = new HomeController(repository.Object);
 
             // Act
             var result = controller.Index();
@@ -28,8 +30,11 @@ namespace UnitTestProject.Tests
         [Fact]
         public void VerifyListProductCount()
         {
-            var repository = new InMemoryProductRepository();
-            var controller = new HomeController(repository);
+            var repository = new Mock<IProductRepository>();
+            repository.Setup(x => x.ListProducts()).Returns(new List<Product>{
+                new Product(), new Product()
+            });
+            var controller = new HomeController(repository.Object);
             var result = Assert.IsType<ViewResult>(controller.List());
             var model = Assert.IsType<List<Product>>(result.Model);
             Assert.Equal(2,model.Count());
