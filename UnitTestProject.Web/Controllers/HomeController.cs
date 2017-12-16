@@ -25,6 +25,20 @@ namespace UnitTestProject.Web.Controllers
         {
             return View(productRepository.ListProducts());
         }
+
+        public IActionResult Details(int id)
+        {
+            var product = productRepository.GetProductById(id);
+
+            if (product == null)
+            {
+                return View("NotFound");
+            }
+            else
+            {
+                return View(product);
+            }
+        }
     }
 
 }
